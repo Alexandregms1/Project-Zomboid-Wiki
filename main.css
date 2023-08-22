@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header h1,
+section h2,
+section h3 {
+    font-family: 'Black Ops One', cursive;
+    font-weight: normal;
+}
+
+body {
+    font-family: 'Crimson Text', serif;
+}
+
+header {
+    padding: 16px;
+    background-color: rgb(41, 41, 156);
+    color: white;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px;
+}
+
+header nav li a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Black Ops One', cursive;
+}
+
+.menu {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .menu,
+section .menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.brands-list img {
+    height: 24px;
+}
+
+.brands-list li {
+    display: inline;
+    margin-right: 15px;
+}
+
+section .menu {
+    align-items: flex-start;
+}
+
+section {
+    padding: 24px 0;
+    background-color: rgba(192, 218, 241, 0.2);
+    color: rgb(41, 41, 156);
+}
+
+section h2, section h3 {
+    margin-bottom: 16px;
+    color: rgb(19, 33, 110);
+}
+
+section p {
+    margin-bottom: 8px;
+}
+
+.store-front {
+    margin-right: 32px;
+}
+
+.social-link img{
+    height: 24px;
+}
+
+.social-link li {
+    display: inline;
+    margin-right: 12px;
+}
+
+.social-link li a {
+    text-decoration: none;
+}
+
+#contact .menu {
+    display: block;
+}
+
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none;
+}
+
+section h3 {
+    margin-bottom: 16px;
+}
+
+form button {
+    background-color: rgb(41, 41, 156);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: rgb(82, 82, 202);
+}
+
+input:focus, textarea:focus {
+    outline-color: rgb(41, 41, 156);
+}
+
+footer {
+    background-color: rgb(41, 41, 156);
+    color: white;
+    padding: 16px 0;
+}
